@@ -19,9 +19,11 @@ The X3D-UML research sought to address the issue of how to design, implement and
 As part of this research a prototype 3D user interface technology was created, which allowed software engineers’ within the study to use it to work with software. With this 3D user interface technology engineers are able to view software diagrams in ways that could not do before. They can work with them in a 3D space and manipulate them in ways not possible with 2D to suit the areas they are working. The examples below show how we use 3D game technology to understand how different parts of a computer program work together and how the software inside a robot works.
 
 ![Interacrive VR visualisation of simple software system](vr_statemachines.jpg)
+
 *Interacrive VR visualisation of simple software system* [X3D-UML 2008]
 
 ![Realtime AR visualisation of robot code](ar_statemachines.jpg)
+
 *Realtime AR visualisation of robot code* [X3D-UML 2010]
 
 [X3D-UML 2008]: X3D-UML: 3D UML State Machine Diagrams.* MCINTOSH, P., HAMILTON, M. & SCHYNDEL, R.  Proceedings of the 11th international conference on Model Driven Engineering Languages and Systems. Toulouse, France, Springer-Verlag (MODELS 2008) [https://www.researchgate.net/publication/221223850_X3D-UML_3D_UML_State_Machine_Diagrams]
