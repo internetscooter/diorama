@@ -24,9 +24,15 @@ In addition to this, the reason that computer interfaces for learning and intera
 
 # X3D-UML examples
 
+Some original examples to be ported to Diorama.
+3D UML State Machine Diagrams have been evaluated against actual user tasks and data, providing quantative evidence for the need of cross diagram visualisation [X3D-UML 2008]. 3D UML Mechatronic Diagrams for real-time debugging of robot behaviour through augmented reality, showing the benefit of combined views of software and hardware interacting insitu [X3D-UML 2010].
+
+![Interacrive VR visualisation of simple software system](x3d-uml/vr_statemachines.jpg)
+*Interacrive VR visualisation of simple software system* [X3D-UML 2008]
+
 ![Realtime AR visualisation of robot code](x3d-uml/ar_statemachines.jpg)
+*Realtime AR visualisation of robot code* [X3D-UML 2010]
 
-![Innteracrive VR visualisation of simple software system](x3d-uml/vr_statemachines.jpg)
+[X3D-UML 2008]: X3D-UML: 3D UML State Machine Diagrams.* MCINTOSH, P., HAMILTON, M. & SCHYNDEL, R.  Proceedings of the 11th international conference on Model Driven Engineering Languages and Systems. Toulouse, France, Springer-Verlag (MODELS 2008) [https://www.researchgate.net/publication/221223850_X3D-UML_3D_UML_State_Machine_Diagrams]
 
-
-
+[X3D-UML 2010]: X3D-UML: 3D UML Mechatronic Diagrams. MCINTOSH, P & HAMILTON, M. Australian Software Engineering Conference. Auckland, New Zealand(ASWEC 2010) [https://www.computer.org/csdl/proceedings/aswec/2010/4006/00/4006a085-abs.html]
