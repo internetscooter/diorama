@@ -1,0 +1,25 @@
+#ifndef OSG_EDGECALLBACK
+#define OSG_EDGECALLBACK 1
+
+#include <osg/Edge>
+#include <osg/NodeCallback>
+
+/** Edge is a derived form of Geode and links Geodes
+	with a graph edge. This CallBack is used for
+	Dynamic edges which follow moving Geodes
+*/
+
+namespace osg {
+
+class OSG_EXPORT EdgeUpdateCallback : public osg::NodeCallback
+{
+	public:
+		EdgeUpdateCallback(){}
+		
+        virtual void operator()(Node* node, NodeVisitor* nv);
+};
+
+}
+
+
+#endif

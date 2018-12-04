@@ -1,0 +1,26 @@
+#ifndef OSG_EDGETRIANGLE
+#define OSG_EDGETRIANGLE 1
+
+#include <osg/Edge>
+#include <osg/Geode>
+#include <osg/Geometry>
+
+namespace osg {
+
+/** Edge is a derived form of Geode and links Geodes
+	with a graph edge
+*/
+class OSG_EXPORT EdgeTriangle : public Edge
+{
+    public:
+
+	EdgeTriangle();
+	EdgeTriangle(Geode* startNode, Geode* endNode);
+	void EdgeUpdate();
+	
+	protected:
+};
+}
+
+
+#endif

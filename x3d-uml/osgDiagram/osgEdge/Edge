@@ -1,0 +1,29 @@
+#ifndef OSG_EDGE
+#define OSG_EDGE 1
+
+#include <osg/Geode>
+#include <osg/Geometry>
+
+namespace osg {
+
+/** Edge is a derived form of Geode and links Geodes
+	with a graph edge
+*/
+class OSG_EXPORT Edge : public Geode
+{
+    public:
+
+	Edge();
+	Edge(Geode* startNode, Geode* endNode);
+	virtual void EdgeUpdate();
+	
+	protected:
+	Geode* _startNode;
+	Geode* _endNode;
+	Geometry* _lineGeom;
+	Vec3Array* _vertices;
+};
+}
+
+
+#endif
