@@ -1,3 +1,23 @@
+Very Very Very Old X3D-UML Code
+===============================
+
+This is just here for reference but shouldn't be "that" hard to bring back to life.
+
+osg is OpenSceneGraph [http://www.openscenegraph.org/] which abstracts OpenGL in to a scenegraph and provides some viewers that can be included in various applications framworks (e.g. QT). osgDiagram is an extension to osg to enable 3D diagrams.
+
+The rebirth process would be to:
+
+- build the latest osg
+- build this extension against that 
+- get the osg viewer working and include the osdDiagram plugin
+
+To create diagrams you need to do this in code. The plugin also allows the diagrams to be manipulated in space.
+
+I am very sorry that I did not create CMAKE build scripts for this!
+
+original readme.txt
+===================
+
 Extension to osg (OpenSceneGraph) to enable interactive 3D diagrams.
 
 Based on the UML Diagram Interchange Specification (but will be extended further in future).
