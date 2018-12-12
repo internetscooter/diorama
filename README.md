@@ -1,6 +1,7 @@
 Diorama
 =======
-Diorama is a AR/VR platform for human centered systems modelling. The project modernises AR/VR technology for current platforms work derived from a 2009 PhD in applying 3D visualisation to software engineering - **X3D-UML: User-Centred Design, Implementation and Evaluation of 3D UML Using X3D** - Paul McIntosh.
+Diorama is a AR/VR platform for human centered systems modelling. The project modernises AR/VR technology for current platforms work derived from a 2009 PhD in applying 3D visualisation to software engineering - **X3D-UML: User-Centred Design, Implementation and Evaluation of 3D UML Using X3D** [http://researchbank.rmit.edu.au/eserv/rmit:6740/Mcintosh.pdf] - Paul McIntosh 
+ 
 
 # Overview
 
